@@ -32,11 +32,23 @@ O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
 ## Estrutura do Projeto
 `main.py`: Ponto de entrada do programa e interface do menu.
 
-`plantas.py`: Definição das classes e subclasses (Modelo).
+`plantas.py`: Definição das classes e subclasses.
 
-`identificador.py`: Lógica de busca e carregamento de dados (Controlador).
+`identificador.py`: Lógica de busca e carregamento de dados.
 
 `plantas_guaramiranga.csv`: Base de dados contendo até então 80 espécies cadastradas.
+
+## UML
+
+<img width="621" height="671" alt="image" src="https://github.com/user-attachments/assets/938b4463-37c7-4dae-8135-f0729e52a2d6" />
+
+## Evidência dos resultados obtidos
+>  Guia o usuário através de características biológicas para identificar o grupo da planta
+<img width="788" height="443" alt="image" src="https://github.com/user-attachments/assets/323dd783-9897-4ba8-9775-7b3f1a51d8c0" />
+
+> Permite pesquisar uma planta pelo seu nome popular para obter informações
+<img width="737" height="451" alt="image" src="https://github.com/user-attachments/assets/cf23762c-2313-4410-bea1-65e5b482ad98" />
+
 
 ## Como Executar
 1. Certifique-se de ter o Python e a biblioteca Pandas instalados:
