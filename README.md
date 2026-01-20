@@ -1,7 +1,7 @@
-# Identificador da flora de Guaramiranga
+# Identificador da flora de Irauçuba
 > **Projeto Final de Programação Orientada a Objetos (POO) - UFC**
 
-Este projeto foi desenvolvido como parte da disciplina de Programação Orientada a Objetos (POO). O objetivo é fornecer uma ferramenta de software para uma ONG ambiental em Guaramiranga, Ceará, auxiliando na identificação e classificação de espécies vegetais da região.
+Este projeto foi desenvolvido como parte da disciplina de Programação Orientada a Objetos (POO). O objetivo é fornecer uma ferramenta de software para uma ONG ambiental em Irauçuba, Ceará, auxiliando na identificação e classificação de espécies vegetais da região.
 
 ## Funcionalidade
 O sistema oferece dois caminhos para a identificação:
@@ -23,7 +23,7 @@ O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
 
 **Abstração:** Criação da classe base `Plantas`.
 
-**Encapsulamento:** Uso de atributos privados (`__`) e métodos de acesso Getters.
+**Encapsulamento:** Uso de atributos privados (`__`).
 
 **Herança:** Implementação de subclasses específicas (`Angiosperma, Gimnosperma, Pteridofita e Briofita`) que herdam da classe mãe Plantas.
 
@@ -36,18 +36,21 @@ O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
 
 `identificador.py`: Lógica de busca e carregamento de dados.
 
-`plantas_guaramiranga.csv`: Base de dados contendo até então 80 espécies cadastradas.
+`plantas_iraucuba.csv`: Base de dados contendo até então 30 plantas categorizadas
 
 ## UML
 
 <img width="621" height="671" alt="image" src="https://github.com/user-attachments/assets/938b4463-37c7-4dae-8135-f0729e52a2d6" />
 
 ## Evidência dos resultados obtidos
+
 >  Guia o usuário através de características biológicas para identificar o grupo da planta
-<img width="788" height="443" alt="image" src="https://github.com/user-attachments/assets/323dd783-9897-4ba8-9775-7b3f1a51d8c0" />
+<img width="968" height="452" alt="image" src="https://github.com/user-attachments/assets/c2531d86-1483-4bc2-bab1-d34b68ecb992" />
+
 
 > Permite pesquisar uma planta pelo seu nome popular para obter informações
-<img width="737" height="451" alt="image" src="https://github.com/user-attachments/assets/cf23762c-2313-4410-bea1-65e5b482ad98" />
+<img width="737" height="465" alt="image" src="https://github.com/user-attachments/assets/bbffd170-d5f4-40af-9b33-0b07cc8f68b0" />
+
 
 
 ## Como Executar
@@ -58,7 +61,7 @@ O projeto foi estruturado para demonstrar o domínio dos quatro pilares da POO:
 
 2. Clone o repositório ou baixe os arquivos.
 
-```git clone https://github.com/seu-usuario/seu-repositorio.git```
+```git clone https://github.com/sarahrdg/projeto_final.git```
 
 3. Execute o arquivo principal:
 
